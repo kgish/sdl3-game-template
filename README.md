@@ -1,6 +1,6 @@
 # sdl3-game-template
 
-This is a basic SDL3 game starters kit based on SDL3 and CMake with vcpkg integration.
+This is a basic SDL3 game starters kit implemented using SDL3 and CMake with vcpkg integration and SDL main callbacks.
 
 Special thanks go to [Codotaku](https://www.youtube.com/@Codotaku) and his amazing video tutorials.
 
