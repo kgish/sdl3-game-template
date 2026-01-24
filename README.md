@@ -24,10 +24,10 @@ $ git init
 
 ### Install vcpkg
 
-Clone the GitHub repository.
+Add the submodule GitHub repository.
 
 ```
-$ git clone https://github.com/microsoft/vcpkg.git
+$ git submodule add https://github.com/microsoft/vcpkg.git
 ```
 
 Run the bootstrap script.
