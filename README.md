@@ -72,7 +72,5 @@ build
 ## References
 
 * [Simple DirectMedia Layer](https://www.libsdl.org/)
-
 * [Setup SDL 3 GPU with CMake and vcpkg in C++ with SDL main callbacks](https://www.youtube.com/watch?v=90mzOdzdJsc)
-
 * [Install and use packages with CMake](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-powershell)
