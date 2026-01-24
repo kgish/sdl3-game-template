@@ -69,6 +69,32 @@ build
 .idea
 ```
 
+### SDL3 libraries
+
+```
+$ ./vcpkg/vcpkg add port sdl3[vulkan] sdl3-image sdl3-ttf
+```
+
+### The vcpkg.json file
+
+```aiignore
+$ cat vcpkg.json
+{
+  "name": "sdl3-game-template-sdl3",
+  "version": "1.0.0",
+  "dependencies": [
+    {
+      "name": "sdl3",
+      "features": [
+        "vulkan"
+      ]
+    },
+    "sdl3-image",
+    "sdl3-ttf"
+  ]
+}
+```
+
 ## References
 
 * [Simple DirectMedia Layer](https://www.libsdl.org/)

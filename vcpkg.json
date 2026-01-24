@@ -1,1 +1,14 @@
-{}
+{
+  "name": "sdl3-game-template-sdl3",
+  "version": "1.0.0",
+  "dependencies": [
+    {
+      "name": "sdl3",
+      "features": [
+        "vulkan"
+      ]
+    },
+    "sdl3-image",
+    "sdl3-ttf"
+  ]
+}
